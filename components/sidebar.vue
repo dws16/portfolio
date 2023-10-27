@@ -10,7 +10,7 @@
   </button>
 
   <aside id="logo-sidebar"
-    class="fixed top-0 left-0 z-40 w-48 h-screen transition-transform -translate-x-full sm:translate-x-0"
+    class="fixed top-0 left-0 z-40 w-[14vw] h-screen transition-transform -translate-x-full sm:translate-x-0"
     aria-label="Sidebar">
     <div class="h-full px-3 py-4 overflow-y-auto bg-primary">
       <a href="/" class="flex items-center pl-2.5 mb-5 justify-center">
@@ -20,14 +20,14 @@
         <ul class="space-y-2 font-medium">
           <li>
             <a href="https://www.linkedin.com/in/firdaus-nanda/" target="_blank"
-              class="flex items-center p-2 text-neutral rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 group">
+              class="flex items-center p-2 text-neutral rounded-lg hover:bg-neutral hover:text-primary group">
               <i class="fa-brands fa-linkedin"></i>
               <span class="ml-3">LinkedIn</span>
             </a>
           </li>
           <li>
             <a href="https://instagram.com/dausnp" target="_blank"
-              class="flex items-center p-2 text-neutral rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 group">
+              class="flex items-center p-2 text-neutral rounded-lg hover:bg-neutral hover:text-primary group">
               <i class="fa-brands fa-instagram"></i>
 
               <span class="flex-1 ml-3 whitespace-nowrap">Instagram</span>
@@ -35,7 +35,7 @@
           </li>
           <li>
             <a href="https://github.com/dws16" target="_blank"
-              class="flex items-center p-2 text-neutral rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 group">
+              class="flex items-center p-2 text-neutral rounded-lg hover:bg-neutral hover:text-primary group">
               <i class="fa-brands fa-github"></i>
               <span class="flex-1 ml-3 whitespace-nowrap">GitHub</span>
             </a>

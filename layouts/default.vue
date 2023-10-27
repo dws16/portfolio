@@ -1,7 +1,8 @@
 <template>
   <div>
     <Sidebar />
-    <main class="content">
+    <main>
+      <img src="~/assets/images/background-cover.jpg" alt="cover" class="h-[40vh] w-full object-cover">
       <div class="inner-content">
         <slot />
       </div>
@@ -15,12 +16,8 @@
   display: flex;
 }
 
-.content {
-  @apply sm:ml-48 ml-0;
-}
 
 .inner-content {
-  width: 100%;
-  padding: 0 20px;
+  @apply w-[86vw] px-4 ml-[14vw];
 }
 </style>

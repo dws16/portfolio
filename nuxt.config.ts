@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   app: {
     head: {
+      title: "dws16 - Portfolio",
       link: [
         {
           rel: "stylesheet",
