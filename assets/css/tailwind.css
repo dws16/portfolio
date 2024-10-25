@@ -14,4 +14,15 @@
   ::-webkit-scrollbar-thumb {
     @apply bg-accent rounded-full;
   }
+
+  /* P4f60 */
+  --color-primary: #19535f;
+  --color-secondary: #14080e;
+  --color-neutral: #e6fafc;
+  --color-accent: #ffba08;
+
+  /* Pe9e9 */
+  --font-primary: 'Helvetica Neue', sans-serif;
+  --font-secondary: 'Georgia', serif;
+  --font-accent: 'Courier New', monospace;
 }
