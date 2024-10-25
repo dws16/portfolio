@@ -2,7 +2,7 @@
   <div>
     <Sidebar />
     <main>
-      <div class="inner-content">
+      <div class="inner-content transition-all duration-300 ease-in-out hover:shadow-2xl">
         <slot />
       </div>
     </main>

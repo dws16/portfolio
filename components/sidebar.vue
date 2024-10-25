@@ -1,6 +1,6 @@
 <template>
   <button data-drawer-target="logo-sidebar" data-drawer-toggle="logo-sidebar" aria-controls="logo-sidebar" type="button"
-    class="inline-flex items-center p-2 mt-2 ml-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+    class="inline-flex items-center p-2 mt-2 ml-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 transition-transform duration-300 ease-in-out hover:scale-105">
     <span class="sr-only">Open sidebar</span>
     <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
       <path clip-rule="evenodd" fill-rule="evenodd"
@@ -12,7 +12,7 @@
   <aside id="logo-sidebar"
     class="fixed top-40 left-10 z-40 w-[14vw] h-[28em] transition-transform -translate-x-full sm:translate-x-0 shadow-xl rounded-xl"
     aria-label="Sidebar">
-    <div class="h-full px-3 py-4 overflow-y-auto bg-primary rounded-xl flex flex-col justify-between shadow-xl">
+    <div class="h-full px-3 py-4 overflow-y-auto bg-primary rounded-xl flex flex-col justify-between shadow-xl transition-all duration-300 ease-in-out hover:shadow-2xl">
       <a href="/" class="flex items-center pl-2.5 justify-center group">
         <div
           class="md:h-32 md:w-32 mr-3 -mt-10 h-7 w-7 absolute rounded-full p-2 bg-[url('~/assets/images/profile-sidebar.jpg')] group-hover:bg-[url(~/assets/images/logo.png)] transition ease-in-out delay-100 group-hover:transition-all bg-cover shadow-xl">
@@ -56,19 +56,19 @@
         <ul class="font-medium flex justify-center">
           <li>
             <a href="https://www.linkedin.com/in/firdaus-nanda/" target="_blank"
-              class="flex items-center p-2 text-neutral rounded-lg hover:bg-neutral hover:text-primary group">
+              class="flex items-center p-2 text-neutral rounded-lg hover:bg-neutral hover:text-primary group transition-transform duration-300 ease-in-out hover:scale-105">
               <i class="fa-brands fa-linkedin"></i>
             </a>
           </li>
           <li>
             <a href="https://instagram.com/dausnp" target="_blank"
-              class="flex items-center p-2 text-neutral rounded-lg hover:bg-neutral hover:text-primary group">
+              class="flex items-center p-2 text-neutral rounded-lg hover:bg-neutral hover:text-primary group transition-transform duration-300 ease-in-out hover:scale-105">
               <i class="fa-brands fa-instagram"></i>
             </a>
           </li>
           <li>
             <a href="https://github.com/dws16" target="_blank"
-              class="flex items-center p-2 text-neutral rounded-lg hover:bg-neutral hover:text-primary group">
+              class="flex items-center p-2 text-neutral rounded-lg hover:bg-neutral hover:text-primary group transition-transform duration-300 ease-in-out hover:scale-105">
               <i class="fa-brands fa-github"></i>
             </a>
           </li>

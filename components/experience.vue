@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-neutral rounded-xl mx-12 mt-12 h-fit p-12 flex flex-col justify-between gap-8 relative shadow-xl border border-accent"
+    class="bg-neutral rounded-xl mx-12 mt-12 h-fit p-12 flex flex-col justify-between gap-8 relative shadow-xl border border-accent transition-all duration-300 ease-in-out hover:shadow-2xl"
     id="experience">
     <div>
       <p class="font-bold text-primary text-lg underline decoration-accent decoration-4 underline-offset-8">Experience</p>
@@ -8,7 +8,7 @@
     <div class="flex flex-row gap-4 justify-between">
       <ol class="relative border-l border-primary">
         <li class="mb-10 ml-6">
-          <span class="absolute flex items-center justify-center w-8 h-8 bg-primary rounded-full -left-4 ">
+          <span class="absolute flex items-center justify-center w-8 h-8 bg-primary rounded-full -left-4 transition-transform duration-300 ease-in-out hover:scale-105">
             <i class="fa-solid fa-building text-neutral"></i>
           </span>
           <h3 class="flex items-center mb-1 text-lg font-bold text-primary">
@@ -28,7 +28,7 @@
           </ul>
         </li>
         <li class="mb-10 ml-6">
-          <span class="absolute flex items-center justify-center w-8 h-8 bg-primary rounded-full -left-4 ">
+          <span class="absolute flex items-center justify-center w-8 h-8 bg-primary rounded-full -left-4 transition-transform duration-300 ease-in-out hover:scale-105">
             <i class="fa-solid fa-building text-neutral"></i>
           </span>
           <h3 class="flex items-center mb-1 text-lg font-bold text-primary">

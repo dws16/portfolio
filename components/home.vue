@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-primary rounded-xl mx-12 -mt-12 h-[360px] p-16 flex flex-col justify-between relative shadow-xl"
+  <div class="bg-primary rounded-xl mx-12 -mt-12 h-[360px] p-16 flex flex-col justify-between relative shadow-xl transition-all duration-300 ease-in-out hover:shadow-2xl"
     id="home">
     <div>
       <h1 class="text-neutral text-5xl font-bold">Hello! My name is <span class="text-accent">Firdaus</span>.</h1>

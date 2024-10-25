@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-primary rounded-xl mt-12 mx-12 h-[18em] p-12 flex flex-col justify-between relative shadow-xl gap-8"
+  <div class="bg-primary rounded-xl mt-12 mx-12 h-[18em] p-12 flex flex-col justify-between relative shadow-xl gap-8 transition-all duration-300 ease-in-out hover:shadow-2xl"
     id="contact">
     <div>
       <p class="font-bold text-neutral text-lg underline decoration-accent decoration-4 underline-offset-8">
@@ -28,7 +28,7 @@
         </div>
       </div>
       <a href="mailto:firdausnp16@gmail.com" target="_blank"
-        class="flex items-center bg-neutral rounded-xl px-4 py-2 group hover:bg-accent">
+        class="flex items-center bg-neutral rounded-xl px-4 py-2 group hover:bg-accent transition-transform duration-300 ease-in-out hover:scale-105">
         <i class="fa-solid fa-paper-plane text-accent text-3xl group-hover:text-neutral"></i>
         <div class="flex flex-col">
           <p class="text-primary text-md ml-4 font-bold flex gap-2 items-center">
